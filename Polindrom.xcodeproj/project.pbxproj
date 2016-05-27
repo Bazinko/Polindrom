@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFFB8B51CF9164F00F908BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8B41CF9164F00F908BA /* AppDelegate.swift */; };
+		1AFFB8B71CF9164F00F908BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8B61CF9164F00F908BA /* ViewController.swift */; };
+		1AFFB8BA1CF9164F00F908BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB8B81CF9164F00F908BA /* Main.storyboard */; };
+		1AFFB8BD1CF9164F00F908BA /* Polindrom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8BB1CF9164F00F908BA /* Polindrom.xcdatamodeld */; };
+		1AFFB8BF1CF9164F00F908BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB8BE1CF9164F00F908BA /* Assets.xcassets */; };
+		1AFFB8C21CF9164F00F908BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C01CF9164F00F908BA /* LaunchScreen.storyboard */; };
+		1AFFB8CD1CF9164F00F908BA /* PolindromTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8CC1CF9164F00F908BA /* PolindromTests.swift */; };
+		1AFFB8D81CF9164F00F908BA /* PolindromUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D71CF9164F00F908BA /* PolindromUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFFB8C91CF9164F00F908BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFFB8A91CF9164F00F908BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFFB8B01CF9164F00F908BA;
+			remoteInfo = Polindrom;
+		};
+		1AFFB8D41CF9164F00F908BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFFB8A91CF9164F00F908BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFFB8B01CF9164F00F908BA;
+			remoteInfo = Polindrom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFFB8B11CF9164F00F908BA /* Polindrom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polindrom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFB8B41CF9164F00F908BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AFFB8B61CF9164F00F908BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFFB8B91CF9164F00F908BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFFB8BC1CF9164F00F908BA /* Polindrom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Polindrom.xcdatamodel; sourceTree = "<group>"; };
+		1AFFB8BE1CF9164F00F908BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFFB8C11CF9164F00F908BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFFB8C31CF9164F00F908BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFB8C81CF9164F00F908BA /* PolindromTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolindromTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFB8CC1CF9164F00F908BA /* PolindromTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolindromTests.swift; sourceTree = "<group>"; };
+		1AFFB8CE1CF9164F00F908BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFB8D31CF9164F00F908BA /* PolindromUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolindromUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFB8D71CF9164F00F908BA /* PolindromUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolindromUITests.swift; sourceTree = "<group>"; };
+		1AFFB8D91CF9164F00F908BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFFB8AE1CF9164F00F908BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8C51CF9164F00F908BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8D01CF9164F00F908BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFFB8A81CF9164F00F908BA = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8B31CF9164F00F908BA /* Polindrom */,
+				1AFFB8CB1CF9164F00F908BA /* PolindromTests */,
+				1AFFB8D61CF9164F00F908BA /* PolindromUITests */,
+				1AFFB8B21CF9164F00F908BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFFB8B21CF9164F00F908BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8B11CF9164F00F908BA /* Polindrom.app */,
+				1AFFB8C81CF9164F00F908BA /* PolindromTests.xctest */,
+				1AFFB8D31CF9164F00F908BA /* PolindromUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFFB8B31CF9164F00F908BA /* Polindrom */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8B41CF9164F00F908BA /* AppDelegate.swift */,
+				1AFFB8B61CF9164F00F908BA /* ViewController.swift */,
+				1AFFB8B81CF9164F00F908BA /* Main.storyboard */,
+				1AFFB8BE1CF9164F00F908BA /* Assets.xcassets */,
+				1AFFB8C01CF9164F00F908BA /* LaunchScreen.storyboard */,
+				1AFFB8C31CF9164F00F908BA /* Info.plist */,
+				1AFFB8BB1CF9164F00F908BA /* Polindrom.xcdatamodeld */,
+			);
+			path = Polindrom;
+			sourceTree = "<group>";
+		};
+		1AFFB8CB1CF9164F00F908BA /* PolindromTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8CC1CF9164F00F908BA /* PolindromTests.swift */,
+				1AFFB8CE1CF9164F00F908BA /* Info.plist */,
+			);
+			path = PolindromTests;
+			sourceTree = "<group>";
+		};
+		1AFFB8D61CF9164F00F908BA /* PolindromUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFB8D71CF9164F00F908BA /* PolindromUITests.swift */,
+				1AFFB8D91CF9164F00F908BA /* Info.plist */,
+			);
+			path = PolindromUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFFB8B01CF9164F00F908BA /* Polindrom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFB8DC1CF9164F00F908BA /* Build configuration list for PBXNativeTarget "Polindrom" */;
+			buildPhases = (
+				1AFFB8AD1CF9164F00F908BA /* Sources */,
+				1AFFB8AE1CF9164F00F908BA /* Frameworks */,
+				1AFFB8AF1CF9164F00F908BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polindrom;
+			productName = Polindrom;
+			productReference = 1AFFB8B11CF9164F00F908BA /* Polindrom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFFB8C71CF9164F00F908BA /* PolindromTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFB8DF1CF9164F00F908BA /* Build configuration list for PBXNativeTarget "PolindromTests" */;
+			buildPhases = (
+				1AFFB8C41CF9164F00F908BA /* Sources */,
+				1AFFB8C51CF9164F00F908BA /* Frameworks */,
+				1AFFB8C61CF9164F00F908BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFFB8CA1CF9164F00F908BA /* PBXTargetDependency */,
+			);
+			name = PolindromTests;
+			productName = PolindromTests;
+			productReference = 1AFFB8C81CF9164F00F908BA /* PolindromTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFFB8D21CF9164F00F908BA /* PolindromUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFB8E21CF9164F00F908BA /* Build configuration list for PBXNativeTarget "PolindromUITests" */;
+			buildPhases = (
+				1AFFB8CF1CF9164F00F908BA /* Sources */,
+				1AFFB8D01CF9164F00F908BA /* Frameworks */,
+				1AFFB8D11CF9164F00F908BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFFB8D51CF9164F00F908BA /* PBXTargetDependency */,
+			);
+			name = PolindromUITests;
+			productName = PolindromUITests;
+			productReference = 1AFFB8D31CF9164F00F908BA /* PolindromUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFFB8A91CF9164F00F908BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Евгений Сергеев";
+				TargetAttributes = {
+					1AFFB8B01CF9164F00F908BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2WC8NQ4R23;
+					};
+					1AFFB8C71CF9164F00F908BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2WC8NQ4R23;
+						TestTargetID = 1AFFB8B01CF9164F00F908BA;
+					};
+					1AFFB8D21CF9164F00F908BA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2WC8NQ4R23;
+						TestTargetID = 1AFFB8B01CF9164F00F908BA;
+					};
+				};
+			};
+			buildConfigurationList = 1AFFB8AC1CF9164F00F908BA /* Build configuration list for PBXProject "Polindrom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFFB8A81CF9164F00F908BA;
+			productRefGroup = 1AFFB8B21CF9164F00F908BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFFB8B01CF9164F00F908BA /* Polindrom */,
+				1AFFB8C71CF9164F00F908BA /* PolindromTests */,
+				1AFFB8D21CF9164F00F908BA /* PolindromUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFFB8AF1CF9164F00F908BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFB8C21CF9164F00F908BA /* LaunchScreen.storyboard in Resources */,
+				1AFFB8BF1CF9164F00F908BA /* Assets.xcassets in Resources */,
+				1AFFB8BA1CF9164F00F908BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8C61CF9164F00F908BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8D11CF9164F00F908BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFFB8AD1CF9164F00F908BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFB8BD1CF9164F00F908BA /* Polindrom.xcdatamodeld in Sources */,
+				1AFFB8B71CF9164F00F908BA /* ViewController.swift in Sources */,
+				1AFFB8B51CF9164F00F908BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8C41CF9164F00F908BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFB8CD1CF9164F00F908BA /* PolindromTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFB8CF1CF9164F00F908BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFB8D81CF9164F00F908BA /* PolindromUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFFB8CA1CF9164F00F908BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFFB8B01CF9164F00F908BA /* Polindrom */;
+			targetProxy = 1AFFB8C91CF9164F00F908BA /* PBXContainerItemProxy */;
+		};
+		1AFFB8D51CF9164F00F908BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFFB8B01CF9164F00F908BA /* Polindrom */;
+			targetProxy = 1AFFB8D41CF9164F00F908BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AFFB8B81CF9164F00F908BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFFB8B91CF9164F00F908BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFFB8C01CF9164F00F908BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFFB8C11CF9164F00F908BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AFFB8DA1CF9164F00F908BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AFFB8DB1CF9164F00F908BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFFB8DD1CF9164F00F908BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Polindrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.Polindrom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AFFB8DE1CF9164F00F908BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Polindrom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.Polindrom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AFFB8E01CF9164F00F908BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolindromTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.PolindromTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polindrom.app/Polindrom";
+			};
+			name = Debug;
+		};
+		1AFFB8E11CF9164F00F908BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolindromTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.PolindromTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polindrom.app/Polindrom";
+			};
+			name = Release;
+		};
+		1AFFB8E31CF9164F00F908BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolindromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.PolindromUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Polindrom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1AFFB8E41CF9164F00F908BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolindromUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.PolindromUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Polindrom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFFB8AC1CF9164F00F908BA /* Build configuration list for PBXProject "Polindrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFB8DA1CF9164F00F908BA /* Debug */,
+				1AFFB8DB1CF9164F00F908BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFFB8DC1CF9164F00F908BA /* Build configuration list for PBXNativeTarget "Polindrom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFB8DD1CF9164F00F908BA /* Debug */,
+				1AFFB8DE1CF9164F00F908BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFFB8DF1CF9164F00F908BA /* Build configuration list for PBXNativeTarget "PolindromTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFB8E01CF9164F00F908BA /* Debug */,
+				1AFFB8E11CF9164F00F908BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AFFB8E21CF9164F00F908BA /* Build configuration list for PBXNativeTarget "PolindromUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFB8E31CF9164F00F908BA /* Debug */,
+				1AFFB8E41CF9164F00F908BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AFFB8BB1CF9164F00F908BA /* Polindrom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AFFB8BC1CF9164F00F908BA /* Polindrom.xcdatamodel */,
+			);
+			currentVersion = 1AFFB8BC1CF9164F00F908BA /* Polindrom.xcdatamodel */;
+			path = Polindrom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AFFB8A91CF9164F00F908BA /* Project object */;
+}
