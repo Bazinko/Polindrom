@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+func CheckWords() {
+    
+    let word = "asddsa"
+    var reverse = ""
+    
+    for character in word.characters {
+        let char = "\(character)"
+        reverse = char + reverse
+    }
+
+    print(word == reverse)
+    
+}

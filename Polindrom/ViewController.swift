@@ -12,21 +12,36 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let word = "asddsa"
-        var reverse = ""
-        
-        for character in word.characters {
-            var char = "\(character)"
-            reverse = char + reverse
-        }
-        
-        print(word == reverse)
+        CheckWords()
+        print("---------------------------------------------------")
+        TreeOutput()
+        print("---------------------------------------------------")
+        removeExtraSpacesFromString("Hey    guys  ! how      are u?")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func TreeOutput() {
+        let strings: [String] = ["ccg443vs","tsd4","1","5dsgz","ыав","gsgsgdgwwr4"]
+        let tree: BSearchTree = BSearchTree<String>()
+        for str in strings {
+            tree.add(str)
+        }
+        let sortedArray = tree.toArray()
+        print("sortedArray: \(sortedArray.description)")
+    }
+    
+    func removeExtraSpacesFromString(string: String!)->String {
+        let splitMapResult = string.characters
+            .split { $0 == " " }
+            .map { String($0) }
+            .joinWithSeparator(" ")
+        print("result: <\(splitMapResult)>")
+        
+        return splitMapResult
     }
 
 

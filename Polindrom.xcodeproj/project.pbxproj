@@ -15,6 +15,8 @@
 		1AFFB8C21CF9164F00F908BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFB8C01CF9164F00F908BA /* LaunchScreen.storyboard */; };
 		1AFFB8CD1CF9164F00F908BA /* PolindromTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8CC1CF9164F00F908BA /* PolindromTests.swift */; };
 		1AFFB8D81CF9164F00F908BA /* PolindromUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8D71CF9164F00F908BA /* PolindromUITests.swift */; };
+		1AFFB8E81CF91CF700F908BA /* Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E71CF91CF700F908BA /* Palindrome.swift */; settings = {ASSET_TAGS = (); }; };
+		1AFFB8EA1CF9221500F908BA /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFB8E91CF9221500F908BA /* Tree.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1AFFB8D31CF9164F00F908BA /* PolindromUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolindromUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFFB8D71CF9164F00F908BA /* PolindromUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolindromUITests.swift; sourceTree = "<group>"; };
 		1AFFB8D91CF9164F00F908BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFB8E71CF91CF700F908BA /* Palindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palindrome.swift; sourceTree = "<group>"; };
+		1AFFB8E91CF9221500F908BA /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				1AFFB8B41CF9164F00F908BA /* AppDelegate.swift */,
 				1AFFB8B61CF9164F00F908BA /* ViewController.swift */,
+				1AFFB8E71CF91CF700F908BA /* Palindrome.swift */,
+				1AFFB8E91CF9221500F908BA /* Tree.swift */,
 				1AFFB8B81CF9164F00F908BA /* Main.storyboard */,
 				1AFFB8BE1CF9164F00F908BA /* Assets.xcassets */,
 				1AFFB8C01CF9164F00F908BA /* LaunchScreen.storyboard */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFFB8EA1CF9221500F908BA /* Tree.swift in Sources */,
 				1AFFB8BD1CF9164F00F908BA /* Polindrom.xcdatamodeld in Sources */,
 				1AFFB8B71CF9164F00F908BA /* ViewController.swift in Sources */,
+				1AFFB8E81CF91CF700F908BA /* Palindrome.swift in Sources */,
 				1AFFB8B51CF9164F00F908BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
