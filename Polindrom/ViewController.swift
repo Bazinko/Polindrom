@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let word = "asddsa"
+        var reverse = ""
+        
+        for character in word.characters {
+            var char = "\(character)"
+            reverse = char + reverse
+        }
+        
+        print(word == reverse)
     }
 
     override func didReceiveMemoryWarning() {
